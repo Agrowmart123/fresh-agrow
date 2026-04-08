@@ -169,17 +169,41 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* RIGHT: ENQUIRY BUTTON + NAMASTE GREETING */}
+          {/* RIGHT: ICONS + MOBILE MENU */}
           <div className="flex items-center gap-4 md:gap-6">
-            <span className="text-gray-700 font-semibold text-sm">Namaste!</span>
+            <button
+              className="md:hidden p-2 rounded-md bg-[#68911a] text-white"
+              onClick={() => setMobileMenu(!mobileMenu)}
+            >
+              {mobileMenu ? <X size={20} /> : <Menu size={20} />}
+            </button>
+
+            <div className="hidden md:flex items-center gap-4">
+              <span className="text-gray-700 font-semibold text-sm">Namaste!</span>
+              <button
+                onClick={() => setEnquiryModalOpen(true)}
+                className="bg-[#68911a] text-white px-4 py-2 rounded-md hover:bg-green-700"
+              >
+                Enquiry
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* MOBILE MENU */}
+        {mobileMenu && (
+          <div className="md:hidden bg-white shadow-md p-4">
+            <Link to="/" className="block py-2 text-gray-700">Home</Link>
+            <Link to="/about" className="block py-2 text-gray-700">About</Link>
+            <Link to="/contact" className="block py-2 text-gray-700">Contact</Link>
             <button
               onClick={() => setEnquiryModalOpen(true)}
-              className="bg-[#68911a] text-white px-4 py-2 rounded-md hover:bg-green-700"
+              className="block w-full text-left py-2 text-[#68911a] font-semibold"
             >
               Enquiry
             </button>
           </div>
-        </div>
+        )}
       </nav>
 
       {/* Enquiry Modal */}
@@ -293,6 +317,23 @@ export default function Navbar() {
           </div>
         </div>
       )}
+
+      {/* Responsive Enhancements */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .navbar .search-bar {
+            width: 100%;
+            margin-top: 1rem;
+          }
+          .navbar .menu {
+            display: block;
+          }
+        }
+      `}</style>
     </>
   );
 }

@@ -4,7 +4,7 @@ export const IMAGES = {
   bannerAlt: '/banner1.svg',
   veg: '/cat1.png',
   meat: '/mediterranean-diet-fish-meat-vegetables-128886250.webp',
-  dairy: '/cat2.png',
+  dairy: '/veg.png',
  
   empty: '/No_Product_Found.png',
  

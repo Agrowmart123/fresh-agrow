@@ -3,7 +3,7 @@ export const farmers = [
     id: 1,
     name: "Mangoes",
     location: "Pune",
-    image: "/Mangoes.webp",
+    image: "/Mangoes.jpg",
     coverImage: "/mango-cover.jpg",
     products: ["Mangoes", "Watermelons", "Organic Corn"],
   },

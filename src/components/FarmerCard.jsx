@@ -51,7 +51,7 @@ export default function FarmerCard({ farmer, onClick }) {
         {/* Buy Now Button */}
         <button
           onClick={onClick}
-          className="mt-4 bg-[#68911a] text-white px-4 py-2 rounded-md hover:bg-green-700"
+          className="mt-4 bg-[#68911a] text-white px-4 py-2 rounded-md hover:bg-green-700 w-full sm:w-auto"
         >
           Buy Now
         </button>

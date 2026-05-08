@@ -1,7 +1,7 @@
 export const farmers = [
   {
     id: 1,
-    name: "Mangoes",
+    name: " Alphaso Mangoes",
     location: "Pune",
     image: "/Mangoes.jpg",
     coverImage: "/mango-cover.jpg",
@@ -23,5 +23,31 @@ export const farmers = [
     coverImage: "/tomt.jpg",
     products: ["Carrots", "Potatoes", "Onions"],
   },
+  {
+    id: 3,
+    name: "Lemon",
+    location: "Pune",
+    image: "/lemon-pic.webp",
+    coverImage: "/lemon.avif",
+    products: ["Carrots", "Potatoes", "Onions"],
+  },
+  {
+    id: 3,
+    name: "Wheat",
+    location: "Pune",
+    image: "/wheat-pic.jpg",
+    coverImage: "/wheat.jpeg",
+    products: ["Carrots", "Potatoes", "Onions"],
+  },
+  {
+    id: 3,
+    name: "Turmeric",
+    location: "Pune",
+    image: "/termeric.avif",
+    coverImage: "/termeroc.jpg",
+    products: ["Carrots", "Potatoes", "Onions"],
+  },
+  
+
   
 ];

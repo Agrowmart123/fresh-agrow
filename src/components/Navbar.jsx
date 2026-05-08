@@ -19,7 +19,7 @@ import { useCart } from "../context/CartContext";
 import { useLocation } from "../context/LocationContext";
 import LocationPicker from "./LocationPicker";
 import { useWishlist } from "../context/WishlistContext";
-import logo from "../../public/AMLogo.png";
+import logo from "../../public/agfresh.jpeg";
 
 export default function Navbar() {
   const { user, logout } = useAuth();
@@ -140,7 +140,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/AFLogo.png"
+                src="/agfresh.jpeg"
                 alt="AgrowFresh"
                 className="h-10 w-auto rounded-full"
               />

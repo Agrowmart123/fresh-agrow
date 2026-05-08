@@ -140,7 +140,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/agfresh.jpeg"
+                src="/agfresh.png"
                 alt="AgrowFresh"
                 className="h-10 w-auto rounded-full"
               />

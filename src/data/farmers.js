@@ -24,7 +24,7 @@ export const farmers = [
     products: ["Carrots", "Potatoes", "Onions"],
   },
   {
-    id: 3,
+    id: 4,
     name: "Lemon",
     location: "Pune",
     image: "/lemon-pic.webp",
@@ -32,7 +32,7 @@ export const farmers = [
     products: ["Carrots", "Potatoes", "Onions"],
   },
   {
-    id: 3,
+    id: 5,
     name: "Wheat",
     location: "Pune",
     image: "/wheat-pic.jpg",
@@ -40,7 +40,7 @@ export const farmers = [
     products: ["Carrots", "Potatoes", "Onions"],
   },
   {
-    id: 3,
+    id: 6,
     name: "Turmeric",
     location: "Pune",
     image: "/termeric.avif",
@@ -48,6 +48,14 @@ export const farmers = [
     products: ["Carrots", "Potatoes", "Onions"],
   },
   
+  {
+    id: 6,
+    name: "Onions",
+    location: "Ahilyanagar,MH",
+    image: "/onion.jpg",
+    coverImage: "/onn.jpeg",
+    products: ["Carrots", "Potatoes", "Onions"],
+  },
 
   
 ];
